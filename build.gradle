@@ -128,7 +128,8 @@ subprojects {
 
   apply plugin: 'java'
   apply plugin: 'eclipse'
-  apply plugin: 'idea'
+//  apply plugin: 'idea'
+  apply plugin: 'scala'
   apply plugin: 'com.newrelic.gradle-verify-instrumentation-plugin'
 
   sourceCompatibility = project.javaVersion

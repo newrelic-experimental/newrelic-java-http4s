@@ -1,0 +1,29 @@
+
+// Build.gradle generated for instrumentation module blaze-server-0.21-2.13
+
+apply plugin: 'scala'
+
+dependencies {
+   implementation 'org.http4s:http4s-blaze-server_2.13:0.21.0'
+
+   // New Relic Java Agent dependencies
+   implementation 'com.newrelic.agent.java:newrelic-agent:6.0.0'
+   implementation 'com.newrelic.agent.java:newrelic-api:6.0.0'
+   implementation fileTree(include: ['*.jar'], dir: '../libs')
+}
+
+jar {
+  manifest {
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.blaze-server-0.21-2.13'
+    attributes 'Implementation-Vendor': 'New Relic'
+    attributes 'Implementation-Vendor-Id': 'com.newrelic'
+    attributes 'Implementation-Version': 1.0
+  }
+}
+
+verifyInstrumentation {
+        passes 'org.http4s:http4s-blaze-server_2.13:[0.21.0,0.21.15]'
+        excludeRegex '.*M[0-9]'
+        excludeRegex '.*RC[0-9]'
+        excludeRegex '.*SNAPSHOT'
+}

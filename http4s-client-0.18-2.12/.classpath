@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-client_2.12/0.18.0/4cd0babfc4be815a0125f2bbab6fb9f209e3f9de/http4s-client_2.12-0.18.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-client_2.12/0.18.0/62728feb5f192b4b1b09e57edc077b6fc620bf05/http4s-client_2.12-0.18.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-agent/6.0.0/e1ff45736ad201ae1ad09b4be76cd9d48a08b322/newrelic-agent-6.0.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-agent/6.0.0/240d18f35d37cd32b0f4c9ac8d93c0fb940a3d69/newrelic-agent-6.0.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-api/6.0.0/241674880fc42dd0b482e099379e66bb0b509596/newrelic-api-6.0.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-api/6.0.0/5297ca7188d72a14bfef17f0f65ef84d67ff519d/newrelic-api-6.0.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-core_2.12/0.18.0/157fedd21e97bf9fdabfe851da5192971302b9d9/http4s-core_2.12-0.18.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-core_2.12/0.18.0/ee49dc649c4ab27cc560b75bb828e494764a2d34/http4s-core_2.12-0.18.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-io_2.12/0.10.0/8a40901766041f5cdf2d8a190d0f2c296663d66f/fs2-io_2.12-0.10.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-io_2.12/0.10.0/60adc8fdc63adf41cf3df32de2370f1fe70166f7/fs2-io_2.12-0.10.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-scodec_2.12/0.10.0/db023751c2561c02a1cea7d6870b513944e22b5d/fs2-scodec_2.12-0.10.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-scodec_2.12/0.10.0/90479d238e50f03855ed79c4796b9ca0668ecd15/fs2-scodec_2.12-0.10.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-core_2.12/0.10.0/f84719b00bbefb7ebb9ea6a2759d788060ffb54/fs2-core_2.12-0.10.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-core_2.12/0.10.0/6a84222d9fe8d3a3e1b00d16016dd4a0d1fcd2f8/fs2-core_2.12-0.10.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/0.8/b5946c565fde6d2e3cc3d6dccc773294690485ab/cats-effect_2.12-0.8.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/0.8/b119ab1752b3f8bf3c22f6f420305e0c9ace5b90/cats-effect_2.12-0.8-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.12/1.0.1/5872b9db29c3e1245f841ac809d5d64b9e56eaa1/cats-core_2.12-1.0.1.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.12/1.0.1/a59993540e8aaa8b7b5941642665e69e0748b08f/cats-core_2.12-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/http4s/http4s-websocket_2.12/0.2.0/http4s-websocket_2.12-0.2.0.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/http4s/http4s-websocket_2.12/0.2.0/http4s-websocket_2.12-0.2.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.log4s/log4s_2.12/1.4.0/8453b2f7425be3ada49f1887681664111d3808cb/log4s_2.12-1.4.0.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.log4s/log4s_2.12/1.4.0/e0827edd72d9ba4a87da4b5405fd235e9d9b0ce7/log4s_2.12-1.4.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/http4s/parboiled_2.12/1.0.0/parboiled_2.12-1.0.0.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/http4s/parboiled_2.12/1.0.0/parboiled_2.12-1.0.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/scodec/scodec-bits_2.12/1.1.5/scodec-bits_2.12-1.1.5.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/scodec/scodec-bits_2.12/1.1.5/scodec-bits_2.12-1.1.5-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-macros_2.12/1.0.1/89374609c1ffe142c7fec887883aff779befb101/cats-macros_2.12-1.0.1.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-macros_2.12/1.0.1/412d4e8cae3b7aeca5e841712ef57ec614d01c4e/cats-macros_2.12-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-kernel_2.12/1.0.1/977ec6bbc1677502d0f6c26beeb0e5ee6c0da0ad/cats-kernel_2.12-1.0.1.jar" sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-kernel_2.12/1.0.1/b26244b22edd48e9173e1cae03d01244d597330d/cats-kernel_2.12-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/scala-lang/scala-reflect/2.12.0/scala-reflect-2.12.0.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/scala-lang/scala-reflect/2.12.0/scala-reflect-2.12.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar" sourcepath="/Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-http4s/libs/instrumentation-test-6.0.0-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-http4s/libs/agent-model-6.0.0-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-http4s/libs/agent-interfaces-6.0.0-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-http4s/libs/agent-bridge-6.0.0-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-http4s/libs/agent-bridge-datastore-6.0.0-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>

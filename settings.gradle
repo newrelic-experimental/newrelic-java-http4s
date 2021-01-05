@@ -7,4 +7,16 @@ git {
         tag 'v6.0.0'
     }
 }
-rootProject.name = 'java-instrumentation-template'
+rootProject.name = 'newrelic-java-http4s'
+include 'blaze-server-0.18-2.12'
+include 'blaze-server-0.20-2.12'
+include 'blaze-server-0.21-2.13'
+include 'http4s-2.12'
+include 'http4s-client-0.18-2.12'
+include 'http4s-client-0.19-2.12'
+include 'http4s-client-0.20-2.12'
+include 'http4s-client-0.21-2.13'
+include 'http4s-dsl-0.18-2.12'
+include 'http4s-dsl-0.20-2.12'
+include 'http4s-dsl-0.21-2.12'
+include 'http4s-dsl-0.21-2.13'
