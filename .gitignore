@@ -1,8 +1,4 @@
 .java-version
-.gradle
-gradlew.bat
-gradlew
-gradle/**
 bin
 build
 .classpath
@@ -10,3 +6,4 @@ build
 settings
 newrelic-agent
 libs
+.git
