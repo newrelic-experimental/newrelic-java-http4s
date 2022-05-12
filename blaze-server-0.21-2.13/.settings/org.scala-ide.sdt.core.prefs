@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+scala.compiler.additionalParams=\ -Xsource\:2.13
+scala.compiler.installation=800877185
+scala.compiler.sourceLevel=2.13
+scala.compiler.useProjectSettings=true
