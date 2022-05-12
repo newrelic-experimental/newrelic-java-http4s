@@ -3,7 +3,7 @@ bin
 build
 .classpath
 .project
-settings
+.settings
 newrelic-agent
 libs
 .git
