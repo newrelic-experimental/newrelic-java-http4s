@@ -22,6 +22,10 @@ Provides instrumentation for the HTTP4S server and client frameworks
 
 ## Installation
 
+Please note that as of version 7.2.0 of the New Relic Java Agent, the agent provides support for HTTP4S.  To use this instrumentation you will need to disable the product instrumentation to use this instrumentation if using version 7.2.0 or later.
+
+
+
 o install:
 
 1. Download the latest release jar files.
