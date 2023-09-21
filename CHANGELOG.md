@@ -3,7 +3,7 @@
 ### Build Upgrades
 - Added Release Workflow
 - Updated vendor title
-- 
+
 ## Installation
 
 To install:
