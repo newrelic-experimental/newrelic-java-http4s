@@ -1,3 +1,14 @@
+## Version: [v1.2.0](https://github.com/newrelic-experimental/newrelic-java-http4s/releases/tag/v1.2.0) | Created: 2023-09-22
+### Bug Fixes
+- Ixes
+
+### Build Upgrades
+- Pdate build.gradle
+- Updated vendor title
+- Updated vendor title
+- Updated vendor title and added release workflow
+
+
 
 ## Version: [v1.2.0](https://github.com/newrelic-experimental/newrelic-java-http4s/releases/tag/v1.2.0) | Created: 2023-09-22
 
